@@ -14,8 +14,8 @@ PHP 5.3 or above
 
 ### Installation
 
-1. Clone repo to your project.
-2. Paste the following line
+1. Add `"cryptonator/merchant-php-sdk": "dev-master"` to `composer.json` of your application or clone repo to your project.
+2. If you are using composer use `require_once 'vendor/autoload.php';` otherwise paste the following line
     ```php
     require_once '/path/to/cloned/repo/lib/MerchantAPI.php';
     ```
